@@ -72,7 +72,7 @@ __注:__
 
 [insightface](https://github.com/deepinsight/insightface) 采用的是MTCNN进行人脸检测，使用的是caffe框架下训练的模型在*`$INSIGHTFACE/deploy/mtcnn-model/`*，使用的是*`cv2.warpAffine`*函数进行人脸对齐 ，使用*`model-r1000-ii`*模型进行人脸__识别__准备：
 
-1. 准备好预训练模型
+1. 准备好预训练[模型](https://github.com/deepinsight/insightface/wiki/Model-Zoo)
 2. 将模型放到文件夹*`$INSIGHTFACE_ROOT/models/`*文件夹下面， 如*`$INSIGHTFACE_ROOT/models/model-r1000-ii`*
 3. 执行*`$INSIGHTFACE/deploy/test.py`* 
 
